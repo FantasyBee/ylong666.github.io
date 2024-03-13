@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>https://abc2580.github.io/post/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://abc2580.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://abc2580.github.io/post/first/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://abc2580.github.io/post/first/</guid>
+      <description>一、查看基础环境 检查红框内的 BIOS 和安全启动状态是否一致。&#xA;二、准备安装文件 下载 Ubuntu 22.04.01 LTS 镜像 ISO 文件。&#xA;官网下载 如果速度较慢，可以选择清华镜像，清华镜像网址 下载官方推荐的 U 盘启动制作工具。&#xA;U 盘启动制作工具选择 Rufus，Rufus 官网 制作启动 U 盘&#xA;打开 Rufus 3.20 软件，导入镜像文件。 分区类型选择 GPT，目标分区类型选 UEFI（非 CSM）。 文件系统选择 NTFS，簇大小选默认：4096 字节（默认）。 设置完成后点击开始，选择以 ISO 镜像模式写入（推荐）。 文件开始擦除数据并写入文件，等待几分钟，准备就绪后关闭。 新建硬盘分区用来安装 Ubuntu 系统。&#xA;在设置里面搜索磁盘管理-&amp;gt;选择一个磁盘-&amp;gt;右键-&amp;gt;压缩卷。例如分配了 100GB。 BIOS 设置&#xA;在设置中找到高级启动，并点击立即启动。 在 BIOS 设置下将自己的 U 盘设置为启动优先项。 三、安装 Ubuntu 准备安装&#xA;插入 U 盘，开机，按 Delete 进入启动项设置，选择第一个“Ubuntu （safe graphics）”，回车，开始进入装机界面。 选择语言“中文（简体）”，点击“安装Ubuntu”。 接下来按照 Ubuntu 系统的提示选择，可一路默认安装。</description>
+    </item>
+  </channel>
+</rss>
